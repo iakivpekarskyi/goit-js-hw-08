@@ -20,7 +20,7 @@ function isThereAnInput(evt) {
 function onFormData(evt) {
    const formData = {email: email.value,message: message.value};
    const textIn = localStorage.setItem(KEY, JSON.stringify(formData));
-    console.log(textIn)
+   console.log(textIn);
 
 
 };
