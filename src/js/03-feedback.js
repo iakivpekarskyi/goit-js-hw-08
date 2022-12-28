@@ -17,6 +17,7 @@ function onFormSubmit(evt) {
    evt.preventDefault();
    evt.target.reset();
    localStorage.removeItem(KEY);
+  
 };
 
 updateInput();
@@ -26,6 +27,7 @@ function updateInput(evt) {
    if (savedInput) {
       email.value = savedInput.email;
       message.value = savedInput.message;
+      console.log('qweqwe')
 }
 }; 
 
